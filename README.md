@@ -67,7 +67,7 @@ mental-health-backend/
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/yourusername/mental-health-backend.git
+   git clone https://github.com/AniketShelar22/mental-health-backend.git
    cd mental-health-backend
    ```
 
@@ -83,6 +83,18 @@ mental-health-backend/
    MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxxx.mongodb.net/mental-health?retryWrites=true&w=majority
    JWT_SECRET=your_jwt_secret
    ENCRYPTION_KEY=your_32_char_encryption_key
+
+   OR
+    
+   MONGO_URI=mongodb+srv://aniketshelar2212002:Skaa7Fx4LuyMwHhj@cluster0.7zmxjvu.mongodb.net/mentalhealth?retryWrites=true&w=majority&appName=Cluster0
+   JWT_SECRET=your_jwt_secret_key
+   DATA_ENCRYPTION_SECRET=your_super_secret_key_here
+
+
+   ```
+   
+
+   
    ```
 
 4. **Start the backend:**
